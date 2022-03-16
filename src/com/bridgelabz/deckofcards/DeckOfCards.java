@@ -50,9 +50,9 @@ public class DeckOfCards {
 		int[] cardIndex = nineCardsIndex();
 		///Distribution among four players
 		for(int i=1; i < 5; i++) {
-			System.out.println("Player " + i + "Cards :");
+			System.out.println("Player " + i + " Cards :");
 			for(int j=i-1; j < cardIndex.length; j=j+4) {
-				System.out.printf("%s \t", deck[j]);
+				System.out.printf("|| %s    ", deck[j]);
 			}
 			System.out.println();
 		}
